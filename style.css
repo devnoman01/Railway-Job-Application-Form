@@ -43,3 +43,13 @@ body{
     background-color: #70b454;
     border: 1px solid white;
 }
+
+table,tr{
+    width: 100%;
+}
+.post-title{
+    background-color: #e4a960;
+}
+td{
+    font-size: 14px;
+}
