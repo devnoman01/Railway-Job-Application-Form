@@ -33,82 +33,90 @@
         </div>
     </section>
 
-    <section class="form-section">
+    <section class="form-section gap">
         <div>
-            <table class="post-title">
-
-            </table>
-            <table class="">
+            <table>
                 <tr>
-                    <td class="">
+                    <td>
+                        <label for="">Name of the Post<sup>*</sup></label>
+                    </td>
+                    <td>
+                        <p>:</p>
+                    </td>
+                    <td>
+                        <p><b>Assistant Station Master</b></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <label for="">Applicant's Name<sup>*</sup></label>
                     </td>
-                    <td class="colon">
+                    <td>
                         <p>:</p>
                     </td>
-                    <td><input type="text" id="fname" name="fname">
+                    <td><input class="text-field" type="text" id="" name="">
                     </td>
                 </tr>
                 <tr>
-                    <td class="">
+                    <td>
                         <label for="">Father's Name<sup>*</sup></label>
                     </td>
-                    <td class="colon">
+                    <td>
                         <p>:</p>
                     </td>
-                    <td><input type="text" id="fname" name="fname">
+                    <td><input class="text-field" type="text" id="" name="">
                     </td>
                 </tr>
                 <tr>
-                    <td class="">
+                    <td>
                         <label for="">Mother's Name<sup>*</sup></label>
                     </td>
-                    <td class="colon">
+                    <td>
                         <p>:</p>
                     </td>
-                    <td><input type="text" id="fname" name="fname">
+                    <td><input class="text-field" type="text" id="" name="">
                     </td>
                 </tr>
                 <tr>
-                    <td class="">
+                    <td>
                         <label for="">Date of Birth<sup>*</sup></label>
                     </td>
-                    <td class="colon">
+                    <td>
                         <p>:</p>
                     </td>
                     <td>
-                        <input type="date" id="" name="">
+                        <input class="select-field" type="date" id="" name="">
                     </td>
                 </tr>
                 <tr>
-                    <td class="">
+                    <td>
                         <label for="">Gender<sup>*</sup></label>
                     </td>
-                    <td class="colon">
+                    <td>
                         <p>:</p>
                     </td>
                     <td>
-                        <input type="radio" id="" name="">
-                        <label for="">Male</label>
-                        <input type="radio" id="" name="">
-                        <label for="">Female</label>
-                        <input type="radio" id="" name="">
-                        <label for="">Other</label>
+                        <input type="radio" id="gender" name="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" id="gender" name="gender">
+                        <label for="female">Female</label>
+                        <input type="radio" id="gender" name="gender">
+                        <label for="other">Other</label>
                     </td>
                 </tr>
                 <tr>
-                    <td class="">
+                    <td>
                         <label for="">Nationality<sup>*</sup></label>
                     </td>
-                    <td class="colon">
+                    <td>
                         <p>:</p>
                     </td>
                     <td>
-                        <select name="" id="">
+                        <select class="select-field" name="" id="">
                             <option value="bangladeshi">Bangladeshi</option>
                         </select>
                         <label class="religion-title" for="religion">Religion</label>
-                        <select class="personal-select" name="" id="">
+                        <select class="select-field" name="" id="">
                             <option value="0" selected="selected">Select One</option>
                             <option value="Islam">Islam</option>
                             <option value="Hinduism">Hinduism</option>
@@ -119,70 +127,70 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="">
+                    <td>
                         <label for="">National ID</label>
                     </td>
-                    <td class="colon">
+                    <td>
                         <p>:</p>
                     </td>
                     <td>
-                        <input type="radio" id="" name="">
-                        <label for="">Yes</label>
-                        <input type="radio" id="" name="">
-                        <label for="">No</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="">
-                        <label for="">Birth Registration</label>
-                    </td>
-                    <td class="colon">
-                        <p>:</p>
-                    </td>
-                    <td>
-                        <input type="radio" id="" name="">
-                        <label for="">Yes</label>
-                        <input type="radio" id="" name="">
-                        <label for="">No</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="">
-                        <label for="">Passport ID</label>
-                    </td>
-                    <td class="colon">
-                        <p>:</p>
-                    </td>
-                    <td>
-                        <input type="radio" id="" name="">
+                        <input type="radio" id="nid" name="nid">
                         <label for="yes">Yes</label>
-                        <input type="radio" id="" name="">
+                        <input type="radio" id="nid" name="nid">
                         <label for="no">No</label>
                     </td>
                 </tr>
                 <tr>
-                    <td class="">
-                        <label for="">Marital Status<sup>*</sup></label>
+                    <td>
+                        <label for="">Birth Registration</label>
                     </td>
-                    <td class="colon">
+                    <td>
                         <p>:</p>
                     </td>
                     <td>
-                        <input type="radio" id="" name="">
-                        <label for="">Married</label>
-                        <input type="radio" id="" name="">
-                        <label for="">Signle</label>
+                        <input type="radio" id="birth-reg" name="birth-reg">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="birth-reg" name="birth-reg">
+                        <label for="no">No</label>
                     </td>
                 </tr>
                 <tr>
-                    <td class="">
-                        <label for="">Freedom Fighter Quota<sup>*</sup></label>
+                    <td>
+                        <label for="">Passport ID</label>
                     </td>
-                    <td class="colon">
+                    <td>
                         <p>:</p>
                     </td>
                     <td>
-                        <select class="personal-select" name="" id="">
+                        <input type="radio" id="passport" name="passport">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="passport" name="passport">
+                        <label for="no">No</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Married Status<sup>*</sup></label>
+                    </td>
+                    <td>
+                        <p>:</p>
+                    </td>
+                    <td>
+                        <input type="radio" id="marriage" name="marriage">
+                        <label for="marriage">Married</label>
+                        <input type="radio" id="marriage" name="marriage">
+                        <label for="marriage">Signle</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Freedom Fighter Quota<sup>*</sup></label>
+                    </td>
+                    <td>
+                        <p>:</p>
+                    </td>
+                    <td>
+                        <select class="select-field" class="personal-select" name="" id="">
                             <option value="0" selected="selected">Select One</option>
                             <option value="1">Freedom Fighter</option>
                             <option value="2">Child of Freedom Fighter</option>
@@ -192,79 +200,262 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="">
+                    <td>
                         <label for="">Physically Handicapped<sup>*</sup></label>
                     </td>
-                    <td class="colon">
+                    <td>
                         <p>:</p>
                     </td>
                     <td>
-                        <input type="radio" id="" name="">
-                        <label for="">Yes</label>
-                        <input type="radio" id="" name="">
-                        <label for="">No</label>
+                        <input type="radio" id="handicapped" name="handicapped">
+                        <label for="handicapped">Yes</label>
+                        <input type="radio" id="handicapped" name="handicapped">
+                        <label for="handicapped">No</label>
                     </td>
                 </tr>
                 <tr>
-                    <td class="">
+                    <td>
                         <label for="">Orphan<sup>*</sup></label>
                     </td>
-                    <td class="colon">
+                    <td>
                         <p>:</p>
                     </td>
                     <td>
-                        <input type="radio" id="" name="">
-                        <label for="">Yes</label>
-                        <input type="radio" id="" name="">
-                        <label for="">No</label>
+                        <input type="radio" id="orphan" name="orphan">
+                        <label for="orphan">Yes</label>
+                        <input type="radio" id="orphan" name="orphan">
+                        <label for="orphan">No</label>
                     </td>
                 </tr>
                 <tr>
-                    <td class="">
+                    <td>
                         <label for="">Ethnicity Minority<sup>*</sup></label>
                     </td>
-                    <td class="colon">
+                    <td>
                         <p>:</p>
                     </td>
                     <td>
-                        <input type="radio" id="" name="">
-                        <label for="">Yes</label>
-                        <input type="radio" id="" name="">
-                        <label for="">No</label>
+                        <input type="radio" id="ethnicity" name="ethnicity">
+                        <label for="ethnicity">Yes</label>
+                        <input type="radio" id="ethnicity" name="ethnicity">
+                        <label for="ethnicity">No</label>
                     </td>
                 </tr>
                 <tr>
-                    <td class="">
+                    <td>
                         <label for="">Ansar/VDP<sup>*</sup></label>
                     </td>
-                    <td class="colon">
+                    <td>
                         <p>:</p>
                     </td>
                     <td>
-                        <input type="radio" id="" name="">
-                        <label for="">Yes</label>
-                        <input type="radio" id="" name="">
-                        <label for="">No</label>
+                        <input type="radio" id="ansar-vdp" name="ansar-vdp">
+                        <label for="ansar-vdp">Yes</label>
+                        <input type="radio" id="ansar-vdp" name="ansar-vdp">
+                        <label for="ansar-vdp">No</label>
                     </td>
                 </tr>
                 <tr>
-                    <td class="">
+                    <td>
                         <label for="">Railway Employee Dependent<sup>*</sup></label>
                     </td>
-                    <td class="colon">
+                    <td>
                         <p>:</p>
                     </td>
                     <td>
-                        <input type="radio" id="" name="">
-                        <label for="">Yes</label>
-                        <input type="radio" id="" name="">
-                        <label for="">No</label>
+                        <input type="radio" id="dependent" name="dependent">
+                        <label for="dependent">Yes</label>
+                        <input type="radio" id="dependent" name="dependent">
+                        <label for="dependent">No</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="address gap">
+        <div class="full-address">
+            <p class="address-title">Present Address<sup>*</sup></p>
+            <table>
+                <tr>
+                    <td class="line-break">
+                        <label for="">Care of</label>
+                    </td>
+                    <td class="line-break">
+                        <input class="address-field" type="text" id="" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="line-break">
+                        <label for="">Village/Town/<br>Road/House/Flat</label>
+                    </td>
+                    <td class="line-break">
+                        <input class="address-field house" type="text" id="" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="line-break">
+                        <label for="">District</label>
+                    </td>
+                    <td class="line-break">
+                        <select class="address-field" class="personal-select" name="" id="">
+                            <option value="0" selected="selected">Select One</option>
+                            <!--
+                            <option value="1">Barishal</option>
+                            <option value="2">Chattogram</option>
+                            <option value="3">Dhaka</option>
+                            <option value="4">Khulna</option>
+                            <option value="5">Rajshahi</option>
+                            <option value="6">Rangpur</option>
+                            <option value="7">Syhlet</option>
+                            -->
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="line-break">
+                        <label for="">P.S./Upazila</label>
+                    </td>
+                    <td class="line-break">
+                        <select class="address-field" class="personal-select" name="" id="">
+                            <option value="0" selected="selected">Select One</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="line-break">
+                        <label for="">Post Office</label>
+                    </td>
+                    <td class="line-break">
+                        <input class="address-field" type="text" id="" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="line-break">
+                        <label for="">Post Code</label>
+                    </td>
+                    <td class="line-break">
+                        <input class="address-field" type="text" id="" name="">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="full-address">
+            <p class="address-title">Permanent Address<sup>*</sup>
+                <input type="checkbox" id="address" name="address" value="check">
+                <label for="address">same as present address</label>
+            </p>
+            <table>
+                <tr>
+                    <td class="line-break">
+                        <label for="">Care of</label>
+                    </td>
+                    <td class="line-break">
+                        <input class="address-field" type="text" id="" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="line-break">
+                        <label for="">Village/Town/<br>Road/House/Flat</label>
+                    </td>
+                    <td class="line-break">
+                        <input class="address-field house" type="text" id="" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="line-break">
+                        <label for="">District</label>
+                    </td>
+                    <td class="line-break">
+                        <select class="address-field" class="personal-select" name="" id="">
+                            <option value="0" selected="selected">Select One</option>
+                            <!--
+                            <option value="1">Barishal</option>
+                            <option value="2">Chattogram</option>
+                            <option value="3">Dhaka</option>
+                            <option value="4">Khulna</option>
+                            <option value="5">Rajshahi</option>
+                            <option value="6">Rangpur</option>
+                            <option value="7">Syhlet</option>
+                            -->
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="line-break">
+                        <label for="">P.S./Upazila</label>
+                    </td>
+                    <td class="line-break">
+                        <select class="address-field" class="personal-select" name="" id="">
+                            <option value="0" selected="selected">Select One</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="line-break">
+                        <label for="">Post Office</label>
+                    </td>
+                    <td class="line-break">
+                        <input class="address-field" type="text" id="" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="line-break">
+                        <label for="">Post Code</label>
+                    </td>
+                    <td class="line-break">
+                        <input class="address-field" type="text" id="" name="">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="form-section gap">
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Mobile Number<sup>*</sup></label>
+                    </td>
+                    <td>
+                        <p class="number-colon">:</p>
+                    </td>
+                    <td>
+                        <input class="address-field number-field" type="text" id="" name="">
+                        <small>Please mention a Mobile Number of any operator. <br>Relevant information will be sent by
+                            SMS
+                            to that number.</small>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Confirm Number<sup>*</sup></label>
+                    </td>
+                    <td>
+                        <p class="number-colon">:</p>
+                    </td>
+                    <td>
+                        <input class="address-field number-field" type="text" id="" name="">
+                        <small>
+                            << Please Retype Mobile Number.</small>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Email Address</label>
+                    </td>
+                    <td>
+                        <p class="number-colon">:</p>
+                    </td>
+                    <td><input class="text-field" type="text" id="" name="">
                     </td>
                 </tr>
 
             </table>
         </div>
     </section>
+
 </body>
 
 </html>

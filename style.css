@@ -7,6 +7,7 @@ body{
     margin: 0 auto;
     font-family: sans-serif;
 }
+
 .top-banner{
     color: white;
     background-color: #146356;
@@ -35,24 +36,83 @@ body{
 }
 .navbar a{
     float: left;
-    padding: 10px 20px;
+    padding: 8px 20px;
     color: white;
     font-weight: 500;
     text-decoration: none;
     font-size: 15px;
-    background-color: #70b454;
+    background-color: #238856;
+     /* deep green #146356 ; light green #5aa13e  */
     border: 1px solid white;
 }
-
+.gap{
+    padding: 10px;
+}
 table,tr{
     width: 100%;
 }
-.post-title{
-    background-color: #e4a960;
-}
+
 td{
     font-size: 14px;
 }
 sup{
     color: red;
+}
+.text-field{
+    width: 500px;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px solid #238856;
+}
+.select-field{
+    width: 150px;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px solid #238856;
+}
+.religion-title{
+    margin-left: 140px;
+}
+.address{
+    display: flex;
+    font-size: 13px;
+}
+.full-address{
+    width: 48%;
+    border: 1px solid #238856;
+    margin-right: 20px;
+    padding: 0px
+}
+.address-title{
+    color: white;
+    background-color: #146356;
+    margin: 0;
+    padding: 7px;   
+}
+.address-field{
+    float: right;
+    width: 200px;
+    height: 24px;
+    border-radius: 5px;
+    border: 1px solid #238856;
+}
+.house{
+    height: 40px;
+}
+.line-break{
+    padding-bottom: 5px;
+}
+.number-field{
+    float: left;
+}
+.number-colon{
+    padding-left: 90px;
+}
+small{
+    margin-left: 10px;
+    color: red;
+}
+.body-text{
+    font-size: 14px;
+    margin: 0;
 }
