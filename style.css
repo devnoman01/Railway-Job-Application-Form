@@ -5,7 +5,7 @@ body{
     background-color: #F3C892;
     width: 763px;
     margin: 0 auto;
-    font-family: 'Arimo', sans-serif;
+    font-family: sans-serif;
 }
 .top-banner{
     color: white;
@@ -52,4 +52,7 @@ table,tr{
 }
 td{
     font-size: 14px;
+}
+sup{
+    color: red;
 }
