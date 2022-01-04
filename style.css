@@ -116,3 +116,32 @@ small{
     font-size: 14px;
     margin: 0;
 }
+.high-study{
+    margin-right: 20px;
+    font-size: 13px;
+}
+.undergrad{
+    width: 100%;
+    border: 1px solid #238856;
+    padding: 0px;
+    display: flex;
+}
+.grad{
+    padding-bottom: 30px;
+}
+.departmental{
+    border: none;
+}
+#department-status{
+    float: left;
+}
+.left-gap{
+    padding-left: 50px;
+}
+.statement{
+    text-align: center;
+    padding: 20px;
+}
+button{
+    margin-bottom: 20px;
+}
