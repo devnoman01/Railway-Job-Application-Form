@@ -1,0 +1,45 @@
+html{
+    background-color: #FFF1BD;
+}
+body{
+    background-color: #F3C892;
+    width: 763px;
+    margin: 0 auto;
+    font-family: 'Arimo', sans-serif;
+}
+.top-banner{
+    color: white;
+    background-color: #146356;
+    display: flex;
+    padding: 20px;
+}
+.logo{
+    float: left;
+    width: 30%;
+
+}
+.banner-title{
+    text-align: center;
+}
+.banner-title p{
+    font-size: 15px;
+    margin: 5px auto;
+    margin-top: 20px;
+}
+.banner-title h1{
+    font-size: 40px;
+    margin: 5px auto;
+}
+.navbar{
+    width: 100%;
+}
+.navbar a{
+    float: left;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #70b454;
+    border: 1px solid white;
+}
