@@ -64,6 +64,15 @@ td{
 sup{
     color: red;
 }
+select{
+    height: 30px;
+}
+.post-field{
+    width: 505px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #238856;
+}
 .text-field{
     width: 500px;
     height: 22px;
@@ -72,7 +81,7 @@ sup{
 }
 .select-field{
     width: 150px;
-    height: 22px;
+    height: 30px;
     border-radius: 5px;
     border: 1px solid #238856;
 }
@@ -102,6 +111,7 @@ sup{
     border-radius: 5px;
     border: 1px solid #238856;
 }
+
 .house{
     height: 40px;
 }
