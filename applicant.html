@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
     <!-- Top banner part with logo and title -->
     <section class="top-banner">
         <div class="logo">
@@ -24,22 +23,25 @@
     </section>
 
     <div class="grid-container">
-        <div><a href="index.html">Home</a></div>
-        <div><a href="#">Payment Status</a></div>
-        <div><a href="recover-id.html">Recover User ID</a></div>
-        <div><a href="recover-pass.html">Recover Password</a></div>
-        <div><a href="admit.html">Admit Card</a></div>
+        <div><a class="menu-text" href="index.html">Home</a></div>
+        <div><a class="menu-text" href="photo-sign-validator.html">Photo/Sign Validator</a></div>
+        <div><a class="menu-text" href="payment-recover.html">Payment/Recover</a></div>
+        <div><a class="menu-text" href="#">Download Applicant's Copy</a></div>
+        <div><a class="menu-text" href="admit.html">Admit Card</a></div>
     </div>
 
-    <section class=" content gap">
+    <section class="content gap">
         <fieldset>
-            <legend><b>Payment Status</b></legend>
+            <legend><b>Applicant Copy Download</b></legend>
             <div class="form">
-                <div class="small-half">
-                    <label for="user-id">User ID <span class="right-colon">:</span></label><br><br>
+                <div class="small-half line-height">
+                    <label for="user-id">User ID<span class="right-colon">:</span></label><br><br>
+                    <label class="label-up-padding" for="user-id">Password<span
+                            class="right-colon">:</span></label><br><br>
                 </div>
                 <div class="small-half">
-                    <input class="user-id" type="text" id="user-id" name="user-id"><br><br>
+                    <input type="text" class="user-id" id="mother" name="mother"><br><br>
+                    <input type="password" class="user-id" id="mobile-no" name="mobile-no"><br><br>
                     <input class="button" type="reset" value="Reset">
                     <input class="button" type="submit" value="Submit">
                 </div>
