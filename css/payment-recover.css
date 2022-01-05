@@ -52,7 +52,7 @@ div a{
 }
 .content{
     margin: 0 auto;
-    padding: 150px 150px;
+    padding: 100px 150px 120px 150px;
     font-size: 14px;
 }
 fieldset{
@@ -68,11 +68,14 @@ fieldset{
     float: left;
     text-align: left;
 }
+.line-height{
+    line-height: 20px;
+}
 .right-colon{
     float: right;
     margin-right: 10px;
 }
-#user-id{
+.user-id{
     height: 20px;
     border: 1px solid #238856;
     border-radius: 5px;
