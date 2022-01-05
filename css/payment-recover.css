@@ -8,8 +8,8 @@ body{
     width: 763px;
     margin: 0 auto;
     font-family: sans-serif;
+    
 }
-
 .top-banner{
     color: white;
     background-color: #064635;
@@ -33,7 +33,6 @@ body{
     font-size: 40px;
     margin: 5px auto;
 }
-
 .grid-container {
     display: grid;
     align-content: space-evenly;
@@ -45,22 +44,21 @@ body{
     border: 2px solid #D3E4CD;
     text-align: center;
     padding: 10px 0;
-    font-size: 12px;
+    font-size: 13px;
 }
 div a{
     text-decoration: none;
     color: white;
 }
-
 .content{
     margin: 0 auto;
     padding: 150px 150px;
+    font-size: 14px;
 }
 fieldset{
     padding: 30px 50px;
     border: 3px solid #D3E4CD;
 }
-
 .form{
     text-align: center;
     display: flex;
@@ -69,4 +67,13 @@ fieldset{
     width: 40%;
     float: left;
     text-align: left;
+}
+.right-colon{
+    float: right;
+    margin-right: 10px;
+}
+#user-id{
+    height: 20px;
+    border: 1px solid #238856;
+    border-radius: 5px;
 }
