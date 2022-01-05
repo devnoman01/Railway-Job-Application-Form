@@ -65,6 +65,12 @@ body{
 a{
     text-decoration: none;
 }
+.link-text{
+   color: blue; 
+}
+.link-text:hover{
+    color: red; 
+ }
 .bolt-text{
     font-weight: bold;
 }
@@ -95,6 +101,9 @@ button{
     border: 1px solid #238856;
     border-radius: 5px;
 }
+button:hover{
+    background-color: lightgray;
+}
 .dummy-img{
     padding: 25px;
     background-color: white;
@@ -103,4 +112,8 @@ button{
 .half-width{
     width: 50%;
     margin: auto;
+}
+.bottom-link{
+    padding: 10px;
+    background-color: white;
 }
