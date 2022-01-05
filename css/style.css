@@ -34,24 +34,22 @@ body{
     font-size: 40px;
     margin: 5px auto;
 }
-.navbar{
-    width: 100%;
-}
-.navbar a{
-    float: left;
-    padding: 8px 20px;
-    color: white;
-    font-weight: 500;
-    text-decoration: none;
-    font-size: 15px;
+.grid-container {
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto auto auto;
     background-color: #238856;
-    /* deep green #146356 ; 
-    light green #5aa13e ;
-    #D3DEDC
-    #92A9BD
-    #7C99AC
-    */
-    border: 1px solid white;
+}
+.grid-container div {
+    font-weight: bold;
+    border: 2px solid #D3E4CD;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 13px;
+}
+.menu-text{
+    text-decoration: none;
+    color: white;
 }
 .gap{
     padding: 10px;

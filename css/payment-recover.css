@@ -1,0 +1,72 @@
+html{
+    background-color: #D3E4CD;
+    /* background-color: #FFF1BD; */
+}
+body{
+    background-color: #97BFB4;
+    /* background-color: #F3C892; #97BFB4; */
+    width: 763px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.top-banner{
+    color: white;
+    background-color: #064635;
+    /* background-color: #146356; */
+    display: flex;
+    padding: 20px;
+}
+.logo{
+    float: left;
+    width: 27%;
+}
+.banner-title{
+    text-align: center;
+}
+.banner-title p{
+    font-size: 15px;
+    margin: 5px auto;
+    margin-top: 20px;
+}
+.banner-title h1{
+    font-size: 40px;
+    margin: 5px auto;
+}
+
+.grid-container {
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: #238856;
+}
+.grid-container div {
+    font-weight: bold;
+    border: 2px solid #D3E4CD;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+}
+div a{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    margin: 0 auto;
+    padding: 150px 150px;
+}
+fieldset{
+    padding: 30px 50px;
+    border: 3px solid #D3E4CD;
+}
+
+.form{
+    text-align: center;
+    display: flex;
+}
+.small-half{
+    width: 40%;
+    float: left;
+    text-align: left;
+}
