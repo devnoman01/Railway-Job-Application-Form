@@ -1,8 +1,10 @@
 html{
-    background-color: #FFF1BD;
+    background-color: #D3E4CD;
+    /* background-color: #FFF1BD; */
 }
 body{
-    background-color: #F3C892;
+    background-color: #97BFB4;
+    /* background-color: #F3C892; #97BFB4; */
     width: 763px;
     margin: 0 auto;
     font-family: sans-serif;
@@ -10,13 +12,14 @@ body{
 
 .top-banner{
     color: white;
-    background-color: #146356;
+    background-color: #064635;
+    /* background-color: #146356; */
     display: flex;
     padding: 20px;
 }
 .logo{
     float: left;
-    width: 30%;
+    width: 27%;
 
 }
 .banner-title{
@@ -42,7 +45,12 @@ body{
     text-decoration: none;
     font-size: 15px;
     background-color: #238856;
-     /* deep green #146356 ; light green #5aa13e  */
+    /* deep green #146356 ; 
+    light green #5aa13e ;
+    #D3DEDC
+    #92A9BD
+    #7C99AC
+    */
     border: 1px solid white;
 }
 .gap{

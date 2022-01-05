@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Job Apply Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/validator.css">
+</head>
+
+<body>
+
+    <!-- Top banner part with logo and title -->
+    <section class="top-banner">
+        <div class="logo">
+            <img src="images/bd-govt-logo.png" alt="" style="width: 100px;">
+        </div>
+        <div class="banner-title">
+            <p>Government of the People's Republic of Bangladesh</p>
+            <h1>Bangladesh Railway</h1>
+        </div>
+    </section>
+
+    <section class="navbar">
+        <div>
+            <a href="index.html">Home</a>
+            <a href="#">Photo/Sign Validator</a>
+            <a href="#">Payment/Recover</a>
+            <a href="#">Download Applicant's Copy</a>
+            <a href="#">Admit Card</a>
+        </div>
+    </section>
+
+    <section class="content gap">
+        <div class="heading">
+            <p class="bolt-text resize">
+                <a href="#">Here to Open Online Image Resize Tools</a>
+            </p>
+            <p class="bolt-text">:: Photo & Signature Validator ::</p>
+        </div>
+        <hr>
+        <p class="justify-text">Photo must be <b>300 X 300 pixel</b> (width X height) <b><span class="red-text">[ .jpg
+                    format]</span></b> and file
+            size not
+            more than <span class="red-text">100 KB (Min. 4 KB)</span> and Signature must be <b>300 X 80 pixel</b>
+            (width X height) <b><span class="red-text">[ .jpg
+                    format]</span></b> and file size
+            not more than <span class="red-text">60 KB (Min. 3 KB)</span>. <b>Colour Photo is a must</b>. Black & White,
+            Monochrome or Grayscale photo
+            or any
+            image other than photo will not be accepted. This application is capable to detect image with <span
+                class="red-text">Facial
+                Recognition</span>. Please avoid to upload unacceptable photo.</p>
+        <div class="input">
+            <tr>
+                <td>
+                    <input type="radio" id="photo" name="image-chcek">
+                    <label for="image-chcek">Photo</label>
+                    <input type="radio" id="signature" name="image-chcek">
+                    <label for="image-chcek">Signature</label>
+                </td>
+                <td>
+                    <input class="file" type="file" id="myfile" name="myfile">
+                    <button>Check Now</button>
+                </td>
+            </tr>
+        </div>
+        <p class="bolt-text">Sample Photo & Signature</p>
+        <div class="dummy-img">
+            <div class="half-width"><img src="images/photo.png" alt=""></div>
+            <div class="half-width"><img src="images/sign.jpg" alt=""></div>
+        </div>
+
+
+    </section>
+
+
+
+</body>
+
+</html>
